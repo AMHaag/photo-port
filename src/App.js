@@ -1,11 +1,18 @@
 // import logo from './logo.svg';
 import React from 'react'
 import './App.css';
-import About from './about'
+import Nav from './Nav'
+import About from './About'
 
 function App() {
   return (
-    <About></About>
+    <div>
+      <Nav></Nav>
+      <main>
+        <About></About>
+      </main>
+    </div>
+    
   );
 }
 
